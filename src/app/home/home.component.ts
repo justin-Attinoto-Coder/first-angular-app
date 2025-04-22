@@ -34,6 +34,9 @@ import { HousingService } from '../housing.service';
         [isLCP]="i === 0"
       ></app-housing-location>
     </section>
+    <footer>
+      <p>Built by Justin Lee Attinoto | <a href="https://github.com/justin-Attinoto-Coder" target="_blank">GitHub Portfolio</a></p>
+    </footer>
   `,
   styleUrls: ['./home.component.css']
 })

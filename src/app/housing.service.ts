@@ -6,6 +6,7 @@ import { HousingLocation } from './housinglocation';
 })
 export class HousingService {
   url = 'https://housing-app-backend.onrender.com/locations';
+
   async getAllHousingLocations(): Promise<HousingLocation[]> {
     const data = await fetch(this.url);
     return (await data.json()) ?? [];

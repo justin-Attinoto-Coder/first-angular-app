@@ -45,7 +45,7 @@
         "name": "Happy Homes Group",
         "city": "Gary",
         "state": "IN",
-        "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+        "photo": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=300",
         "availableUnits": 1,
         "wifi": true,
         "laundry": false
@@ -55,7 +55,7 @@
         "name": "Hopeful Apartment Group",
         "city": "Oakland",
         "state": "CA",
-        "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+        "photo": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=300",
         "availableUnits": 2,
         "wifi": true,
         "laundry": true
@@ -65,7 +65,7 @@
         "name": "Seriously Safe Towns",
         "city": "Oakland",
         "state": "CA",
-        "photo": "https://angular.dev/assets/images/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+        "photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=300",
         "availableUnits": 5,
         "wifi": true,
         "laundry": true
@@ -85,7 +85,7 @@
         "name": "Seriously Safe Towns",
         "city": "Oakland",
         "state": "CA",
-        "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+        "photo": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=300",
         "availableUnits": 10,
         "wifi": false,
         "laundry": false
@@ -93,9 +93,9 @@
       {
         "id": 9,
         "name": "Capital Safe Towns",
-        "city": "Oakland",
+        "city": "Portland",
         "state": "OR",
-        "photo": "https://angular.dev/assets/images/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
+        "photo": "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=300",
         "availableUnits": 6,
         "wifi": true,
         "laundry": true
