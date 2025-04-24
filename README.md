@@ -50,6 +50,12 @@ Add unit tests with Jasmine/Karma.
 Implement a real backend with Node.js and MongoDB.
 Enhance UI with animations and advanced styling.
 
+## Screenshots
+![Home Page](screenshots/angular-app-19-my-first-app-home-screen-housing-location-listing.png)
+![Details Page](screenshots/search-screen-chicago-angular-19-my-first-app.png)
+![Details Form Page](screenshots/housing-location-form-application-angular-19.png)
+
+
 Contact
 
 GitHub: justin-Attinoto-Coder
