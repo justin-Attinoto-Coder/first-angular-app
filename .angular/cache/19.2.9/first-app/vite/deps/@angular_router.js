@@ -1,6 +1,6 @@
 import {
   Title
-} from "./chunk-CPOZBNXZ.js";
+} from "./chunk-CHORFJT4.js";
 import {
   DOCUMENT,
   HashLocationStrategy,
@@ -9,7 +9,7 @@ import {
   LocationStrategy,
   PathLocationStrategy,
   ViewportScroller
-} from "./chunk-SFOYTQF7.js";
+} from "./chunk-T65LYMK5.js";
 import {
   APP_BOOTSTRAP_LISTENER,
   ApplicationRef,
@@ -110,7 +110,7 @@ import {
   ɵɵloadQuery,
   ɵɵqueryRefresh,
   ɵɵsanitizeUrlOrResourceUrl
-} from "./chunk-OPCQPQRU.js";
+} from "./chunk-KUA6TBKJ.js";
 
 // node_modules/@angular/router/fesm2022/router-B-Y85L0c.mjs
 var PRIMARY_OUTLET = "primary";
@@ -4741,7 +4741,7 @@ function isPublicRouterEvent(e) {
   return !(e instanceof BeforeActivateRoutes) && !(e instanceof RedirectRequest);
 }
 
-// node_modules/@angular/router/fesm2022/router_module-CbmfhtZA.mjs
+// node_modules/@angular/router/fesm2022/router_module-RgZPgAJ4.mjs
 var RouterLink = class _RouterLink {
   router;
   route;
@@ -5318,7 +5318,7 @@ var RouterPreloader = class _RouterPreloader {
   preloadingStrategy;
   loader;
   subscription;
-  constructor(router, compiler, injector, preloadingStrategy, loader) {
+  constructor(router, injector, preloadingStrategy, loader) {
     this.router = router;
     this.injector = injector;
     this.preloadingStrategy = preloadingStrategy;
@@ -5379,7 +5379,7 @@ var RouterPreloader = class _RouterPreloader {
     });
   }
   static ɵfac = function RouterPreloader_Factory(__ngFactoryType__) {
-    return new (__ngFactoryType__ || _RouterPreloader)(ɵɵinject(Router), ɵɵinject(Compiler), ɵɵinject(EnvironmentInjector), ɵɵinject(PreloadingStrategy), ɵɵinject(RouterConfigLoader));
+    return new (__ngFactoryType__ || _RouterPreloader)(ɵɵinject(Router), ɵɵinject(EnvironmentInjector), ɵɵinject(PreloadingStrategy), ɵɵinject(RouterConfigLoader));
   };
   static ɵprov = ɵɵdefineInjectable({
     token: _RouterPreloader,
@@ -5395,8 +5395,6 @@ var RouterPreloader = class _RouterPreloader {
     }]
   }], () => [{
     type: Router
-  }, {
-    type: Compiler
   }, {
     type: EnvironmentInjector
   }, {
@@ -5892,7 +5890,7 @@ function mapToCanDeactivate(providers) {
 function mapToResolve(provider) {
   return (...params) => inject(provider).resolve(...params);
 }
-var VERSION = new Version("19.2.7");
+var VERSION = new Version("19.2.8");
 export {
   ActivatedRoute,
   ActivatedRouteSnapshot,
@@ -5977,21 +5975,21 @@ export {
 
 @angular/router/fesm2022/router-B-Y85L0c.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
-@angular/router/fesm2022/router_module-CbmfhtZA.mjs:
+@angular/router/fesm2022/router_module-RgZPgAJ4.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
 @angular/router/fesm2022/router.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)

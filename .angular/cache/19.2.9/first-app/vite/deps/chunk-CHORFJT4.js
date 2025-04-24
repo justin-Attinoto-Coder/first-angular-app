@@ -8,7 +8,7 @@ import {
   isPlatformServer,
   parseCookieValue,
   setRootDomAdapter
-} from "./chunk-SFOYTQF7.js";
+} from "./chunk-T65LYMK5.js";
 import {
   APP_BOOTSTRAP_LISTENER,
   APP_ID,
@@ -94,7 +94,7 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-OPCQPQRU.js";
+} from "./chunk-KUA6TBKJ.js";
 
 // node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs
 var EVENT_MANAGER_PLUGINS = new InjectionToken(ngDevMode ? "EventManagerPlugins" : "");
@@ -4395,7 +4395,7 @@ function provideClientHydration(...features) {
   }
   return makeEnvironmentProviders([typeof ngDevMode !== "undefined" && ngDevMode ? provideZoneJsCompatibilityDetector() : [], withDomHydration(), featuresKind.has(HydrationFeatureKind.NoHttpTransferCache) || hasHttpTransferCacheOptions ? [] : withHttpTransferCache({}), providers]);
 }
-var VERSION = new Version("19.2.7");
+var VERSION = new Version("19.2.8");
 
 export {
   EVENT_MANAGER_PLUGINS,
@@ -4438,37 +4438,37 @@ export {
 
 @angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
 @angular/platform-browser/fesm2022/browser-X3l5Bmdq.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
 @angular/common/fesm2022/module-BHk9jdTn.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
 @angular/common/fesm2022/http.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 
 @angular/platform-browser/fesm2022/platform-browser.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-CPOZBNXZ.js.map
+//# sourceMappingURL=chunk-CHORFJT4.js.map

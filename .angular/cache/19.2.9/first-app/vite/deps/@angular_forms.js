@@ -1,6 +1,6 @@
 import {
   getDOM
-} from "./chunk-SFOYTQF7.js";
+} from "./chunk-T65LYMK5.js";
 import {
   ChangeDetectorRef,
   Directive,
@@ -47,7 +47,7 @@ import {
   ɵɵdirectiveInject,
   ɵɵgetInheritedFactory,
   ɵɵlistener
-} from "./chunk-OPCQPQRU.js";
+} from "./chunk-KUA6TBKJ.js";
 
 // node_modules/@angular/forms/fesm2022/forms.mjs
 var BaseControlValueAccessor = class _BaseControlValueAccessor {
@@ -3080,6 +3080,7 @@ var NgForm = class _NgForm extends ControlContainer {
     this.submittedReactive.set(true);
     syncPendingControls(this.form, this._directives);
     this.ngSubmit.emit($event);
+    this.form._events.next(new FormSubmittedEvent(this.control));
     return $event?.target?.method === "dialog";
   }
   /**
@@ -3098,6 +3099,7 @@ var NgForm = class _NgForm extends ControlContainer {
   resetForm(value = void 0) {
     this.form.reset(value);
     this.submittedReactive.set(false);
+    this.form._events.next(new FormResetEvent(this.form));
   }
   _setUpdateStrategy() {
     if (this.options && this.options.updateOn != null) {
@@ -6698,7 +6700,7 @@ var UntypedFormBuilder = class _UntypedFormBuilder extends FormBuilder {
     }]
   }], null, null);
 })();
-var VERSION = new Version("19.2.7");
+var VERSION = new Version("19.2.8");
 var FormsModule = class _FormsModule {
   /**
    * @description
@@ -6851,7 +6853,7 @@ export {
 
 @angular/forms/fesm2022/forms.mjs:
   (**
-   * @license Angular v19.2.7
+   * @license Angular v19.2.8
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
