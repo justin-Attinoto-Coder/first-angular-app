@@ -5,17 +5,29 @@ import { HousingLocation } from './housinglocation';
   providedIn: 'root'
 })
 export class HousingService {
-  url = 'https://first-angular-app-backend.onrender.com';
+  url = 'https://first-angular-app-backend.onrender.com/locations';
 
   async getAllHousingLocations(): Promise<HousingLocation[]> {
-    const data = await fetch(this.url);
-    return (await data.json()) ?? [];
+    try {
+      const data = await fetch(this.url);
+      if (!data.ok) throw new Error(`Fetch failed with status ${data.status}`);
+      return (await data.json()) ?? [];
+    } catch (error) {
+      console.error('Error fetching locations:', error);
+      return [];
+    }
   }
 
   async getHousingLocationById(id: number): Promise<HousingLocation | undefined> {
-    const data = await fetch(`${this.url}?id=${id}`);
-    const locationJson = await data.json();
-    return locationJson[0] ?? {};
+    try {
+      const data = await fetch(`${this.url}?id=${id}`);
+      if (!data.ok) throw new Error(`Fetch failed with status ${data.status}`);
+      const locationJson = await data.json();
+      return locationJson[0] ?? undefined;
+    } catch (error) {
+      console.error('Error fetching location by ID:', error);
+      return undefined;
+    }
   }
 
   submitApplication(firstName: string, lastName: string, email: string) {
